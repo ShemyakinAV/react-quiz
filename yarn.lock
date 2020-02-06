@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@vkontakte/vk-connect@^1.8.7":
+  version "1.8.7"
+  resolved "https://registry.yarnpkg.com/@vkontakte/vk-connect/-/vk-connect-1.8.7.tgz#c9c0db08db85d95aadb4de57eb63445690c616b1"
+  integrity sha512-5Fl1ZEq1nT0QAkoZPdfuJscvS1xTn+fcL3BYMNg9VmTQopMBPugByivlD4XvIH07LVJ7OB+TNUjNke5dnQFMLg==
+
+"@vkontakte/vkui@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@vkontakte/vkui/-/vkui-3.0.2.tgz#1c147f9afe28074fe4cb97fb1f56b868bc395b7a"
+  integrity sha512-CnbGRkLVNB/Wr6M9HOY62jKyvOgwHLAQTfSbPArrJ86XRmSRb7QV5k3kTEJ0C9HVZMxjRm719+SR2EGHMQTp5A==
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -1002,6 +1012,11 @@ babel-types@^6.18.0, babel-types@^6.19.0, babel-types@^6.23.0, babel-types@^6.24
     esutils "^2.0.2"
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
+
+babel@^6.23.0:
+  version "6.23.0"
+  resolved "https://registry.yarnpkg.com/babel/-/babel-6.23.0.tgz#d0d1e7d803e974765beea3232d4e153c0efb90f4"
+  integrity sha1-0NHn2APpdHZb7qMjLU4VPA77kPQ=
 
 babylon@^6.17.0, babylon@^6.18.0:
   version "6.18.0"
