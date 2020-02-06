@@ -4,6 +4,10 @@ import './index.css'
 import App from './App'
 import {BrowserRouter} from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker'
+import connect from '@vkontakte/vk-connect';
+
+// Init VK  Mini App
+connect.send('VKWebAppInit');
 
 const app = (
   <BrowserRouter>
