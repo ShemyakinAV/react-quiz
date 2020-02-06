@@ -8,6 +8,7 @@ import Loader from "../../components/UI/Loader/Loader";
 class Quiz extends Component {
     state = {
         results: {},
+      info: null,
         isFinished: false,
         activeQuestion: 0,
         answerState: null,
@@ -73,7 +74,8 @@ class Quiz extends Component {
 
     async componentDidMount() {
         try {
-            const response = await axios.get(`/quizes/${this.props.match.params.id}.json`)
+
+          const response = await axios.get(`/quizes/${this.props.match.params.id}.json`)
             const quiz = response.data
 
             this.setState({
@@ -84,7 +86,6 @@ class Quiz extends Component {
         } catch (e) {
             console.log(e)
         }
-        console.log('Quiz ID = ', this.props.match.params.id)
     }
 
     render() {
